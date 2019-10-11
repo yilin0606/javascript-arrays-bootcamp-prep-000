@@ -39,7 +39,7 @@ function destructivelyAddElementToEndOfArray(array,element){
  }
  
  function removeElementFromBeginningOfArray(array){
-    var array=array.slice(1)
+    array.slice(1)
     return array
  }
  
@@ -49,10 +49,6 @@ function destructivelyAddElementToEndOfArray(array,element){
  }
  
  function removeElementFromEndOfArray(array){
-   array.slice(0,array-1);
+   array.slice(0,array.length-1);
    return array
- }
- 
- function removeElementFromEndOfArray(array){
-   
  }
