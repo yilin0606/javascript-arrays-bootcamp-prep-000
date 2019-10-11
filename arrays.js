@@ -53,4 +53,6 @@ function destructivelyAddElementToEndOfArray(array,element){
    return array
  }
  
- function 
+ function removeElementFromEndOfArray(array){
+   
+ }
