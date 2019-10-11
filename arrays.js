@@ -30,7 +30,8 @@ function destructivelyAddElementToEndOfArray(array,element){
   }
   
  function accessElementInArray(array,index){
-   return  console.log(arrray[index]);
+   console.log(arrray[index]);
+   return
  }
  
  
