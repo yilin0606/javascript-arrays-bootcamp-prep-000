@@ -43,7 +43,9 @@ function destructivelyAddElementToEndOfArray(array,element){
     return array
  }
  
- function
+ function destructivelyRemoveElementFromEndOfArray(array){
+   return array.pop()
+ }
  
  
  
